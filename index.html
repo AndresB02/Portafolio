@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hector Buitrago | Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- MENU ENCABEZADO -->
+    <header id="header">
+        <div class="contenedor">
+            <img src="assets/argusStudio.png" alt="Logo nombre de mi empresa (mi sueño)" class="logo">
+            <nav id="nav">
+                <ul class="ul-menu">
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#acercaDeMi" onclick="seleccionar()">Acerca de mí</a></li>
+                    <li><a href="#contenido-habilidades" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i><img src="assets/bars.png" alt="" class="bar"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECCION INICIO -->
+        <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contendedor-img">
+                    <img src="assets/hectorDos.jpg" alt="" class="foto">
+                </div>
+                <h1>Hector Andres Buitrago Pinzon</h1>
+                <h3>Web Designer</h3>
+                <div class="redes">
+                    <a href="https://github.com/AndresB02?tab=repositories" target="_blank"><i><img src="assets/git.png" alt="" class="git" width="80%"></i></a>
+                    <a href="mailto:a.buitrago02@gmail.com"><i><img src="assets/email.png" alt="" class="correo" width="80%"></i></a>
+                    <a href="https://www.linkedin.com/in/abuitrago02/" target="_blank"><i><img src="assets/linkedin.png" alt="" class="linkedin" width="70%"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION ACERCA DE MI -->
+        <section id="acercaDeMi" class="acercaDeMi">
+            <div class="contenidoDeMi">
+                <br>
+                <h2>Acerca de Mí</h2>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p id="descripcion"><span>Hola, soy Hector Buitrago.</span><br><br><br><br>Estudiante de Porgramación, busco oportunidad para adquirir experiencia en HTML, CSS y JavaScript, para lograr ser un fronted Developer como primer paso pero la meta final es ser un Full Stack integro.<br><br>Busco siempre trabajar en equipo, cooperando con todos y apoyando de la mejor manera posible, con gran satisfacción en enseñar y aprender. Logrando conseguir prácticas en el área de desarrollo web, que permita mi crecimiento intelectual y a desarrollar mis conocimientos técnicos, para crecer junto a la empresa y a mis compañeros de trabajo.</p>
+                <br>
+                <br>
+                <br>
+                <div class="fila">
+                    <!-- HOBBIES -->
+                    <div class="col">
+                        <h3>Hobbies</h3>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="contenedor-hobbies"> 
+                            <div class="hobbies">
+                                <i><img src="assets/gampead.png" alt="" width="30%"></i>
+                                <span>VideoJuegos</span>
+                            </div>
+                            <div class="hobbies">
+                                <i><img src="assets/headphones.png" alt="" width="23%" class="headphones"></i>
+                                <span class="headphonesp">Escuchar música</span>
+                            </div>
+                            <div class="hobbies">
+                                <i><img src="assets/tv.png" alt="" width="30%"></i>
+                                <span>Ver series</span>
+                            </div>
+                            <div class="hobbies">
+                                <i><img src="assets/cocinar.png" alt="" width="30%"></i>
+                                <span>Cocinar</span>
+                            </div>
+                            <div class="hobbies">
+                                <i><img src="assets/diseñar.png" alt="" width="30%"></i>
+                                <span>Diseñar</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- HABILIDADES -->
+                    <div class="col" id="contenido-habilidades">
+                        <br>
+                        <h3>Habilidades</h3>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="contenedor-habilidades">
+                            <div class="habilidades">
+                                <i><img src="assets/html.png" alt="" width="25%"></i>
+                                <span>HTML</span>
+                            </div>
+                            <div class="habilidades">
+                                <i><img src="assets/css.png" alt="" width="25%" class="css"></i>
+                                <span class="css">CSS</span>
+                            </div>
+                            <div class="habilidades">
+                                <i><img src="assets/js.png" alt="" width="25%"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="habilidades">
+                                <i><img src="assets/adobe.png" alt="" width="25%"></i>
+                                <span>Adobe Illustrator</span>
+                            </div>
+                            <div class="habilidades">
+                                <i><img src="assets/ae.png" alt="" width="25%"></i>
+                                <span>Adobe After Effects</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="descargar">
+                    <a href="https://drive.google.com/file/d/12QaBUKpHyJ_oHYj880eG9WS84f-uNsED/view?usp=sharing" target="_blank">
+                        <button>
+                            Descargar CV <img src="assets/descargar.png" alt="" width="15%">
+                            <span class="overlay"></span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION CURRICULUM -->
+        <section id="curriculum" class="curriculum">
+            <div class="contenido-curriculum">
+                <h2>Curriculum</h2>
+                <div class="fila">
+
+                    <div class="col derecha">
+                        <h3>Experiencia Profesional</h3>
+
+                        <div class="item derecho">
+                            <h4>Community Manager</h4>
+                            <span class="lugar">Freelance, Bogotá</span>
+                            <span class="fecha">Diciembre 2022 - Actual</span>
+                            <p>Manejo y seguimiento de redes sociales optimizando su avistamiento en internet y logrando así mayores, ventas, vistas y seguidores.</p>
+                            <ul>
+                                <h4>Tareas</h4>
+                                <li>Relacionamiento con clientes en gestión de quejas y consultas por diferentes canales de atención.</li>
+                                <li>Panificación, publicación y difusión de contenidos originales y de calidad.</li>
+                            </ul>
+                            <div class="conectorDerecha">
+                                <div class="circuloDerecha"></div>
+                            </div>
+                        </div>
+
+                        <div class="item derecho">
+                            <h4>VHR Transporte LTDA</h4>
+                            <span class="lugar">Auxiliar de transporte, Bogotá</span>
+                            <span class="fecha">Abril 2019 – Noviembre 2022</span>
+                            <p>Manejo de mercancía, alistar pedidos para despacho de entrega inmediata. Realizar el seguimiento y control de la mercancía en conjunto con el cliente vía telefónica y aplicativos GPS.</p>
+                            <ul>
+                                <h4>Tareas</h4>
+                                <li>Atención y servicio al cliente.</li>
+                                <li>Cumplimiento eficaz de las tareas asignadas.</li>
+                                <li>Transporte de carga ligera y pesada en viajes de corta y larga distancia.</li>
+                                <li>Conducción responsable, cuidando la seguridad de la carga y respetando las normas viales.</li>
+                                <li>Conducción responsable, cuidando la seguridad de la carga y respetando las normas viales.</li>
+                            </ul>
+                            <div class="conectorDerecha">
+                                <div class="circuloDerecha"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+
+                        <div class="item izquierdo">
+                            <h4>Curso Fronted</h4>
+                            <span class="lugar">Alura Latam & Oracle</span>
+                            <span class="fecha">2023 – Actualmente</span>
+                            <div class="conectorIzquierda">
+                                <div class="circuloIzquierda"></div>
+                            </div>
+                        </div>
+
+                        <div class="item izquierdo">
+                            <h4>Integración de Contenidos Digitales</h4>
+                            <span class="lugar">Servicio Nacional de Aprendizaje, SENA</span>
+                            <span class="fecha">2022/09 – 2023/05</span>
+                            <div class="conectorIzquierd">
+                                <div class="circuloIzquierda"></div>
+                            </div>
+                        </div>
+
+                        <div class="item izquierdo">
+                            <h4>Git y GitHub</h4>
+                            <span class="lugar">Alura Latam & Oracle</span>
+                            <span class="fecha">2023/04 – 2023/05</span>
+                            <div class="conectorIzquierda">
+                                <div class="circuloIzquierda"></div>
+                            </div>
+                        </div>
+
+                        <div class="item izquierdo">
+                            <h4>Lógica de programación.</h4>
+                            <span class="lugar">Alura Latam & Oracle</span>
+                            <span class="fecha">2023/04 – 2023/05</span>
+                            <div class="conectorIzquierda">
+                                <div class="circuloIzquierda"></div>
+                            </div>
+                        </div>
+
+                        <div class="item izquierdo">
+                            <h4>Curso definitivo de HTML y CSS</h4>
+                            <span class="lugar">Platzi</span>
+                            <span class="fecha">2023/02 – 2023/03</span>
+                            <div class="conectorIzquierda">
+                                <div class="circuloIzquierda"></div>
+                            </div>
+                        </div>
+
+                        <div class="item izquierdo">
+                            <h4>Curso Git y GitHub</h4>
+                            <span class="lugar">Platzi</span>
+                            <span class="fecha">2023/01 – 2023/03</span>
+                            <div class="conectorIzquierda">
+                                <div class="circuloIzquierda"></div>
+                            </div>
+                        </div>
+
+                        <div class="item izquierdo">
+                            <h4>Curso básico de JavaScript</h4>
+                            <span class="lugar">Platzi</span>
+                            <span class="fecha">2022/12 – 2023/01</span>
+                            <div class="conectorIzquierda">
+                                <div class="circuloIzquierda"></div>
+                            </div>
+                        </div>
+
+                        <div class="item izquierdo">
+                            <h4>Desarrollo Web</h4>
+                            <span class="lugar">Universidad Autónoma de Bucaramanga</span>
+                            <span class="fecha">2022/06 – 2022/12</span>
+                            <div class="conectorIzquierda">
+                                <div class="circuloIzquierda"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION PORTAFOLIO -->
+        <section id="portafolio" class="portafolio">
+            <div class="contenidoPortafolio">
+                <h2>Portafolio</h2>
+                <div class="galeria">
+
+                    <div class="proyecto">
+                        <div class="overlay">
+                            <a href="https://github.com/AndresB02/Encriptador-Texto" target="_blank">
+                                <h3>Encriptador de Texto</h3>
+                                <p>Repositorio</p>
+                            </a>
+                        </div>
+                        <img src="assets/encriptador.jpeg" alt="">
+                    </div>
+
+                    <div class="proyecto">
+                        <div class="overlay">
+                            <a href="https://github.com/AndresB02/Barberia-Alura" target="_blank">
+                                <h3>Pagina Web - Barbería Alura</h3>
+                                <p>Repositorio</p>
+                            </a>
+                        </div>
+                        <img src="assets/barberiaAlura.jpeg" alt="">
+                    </div>
+
+                    <div class="proyecto">
+                        <div class="overlay">
+                            <a href="https://github.com/AndresB02/Repsol">
+                                <h3>Pagina Web - Repsol, SENA</h3>
+                                <p>Repositorio</p>
+                            </a>
+                        </div>
+                        <img src="assets/repsol.jpeg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION CONTACTO -->
+        <section id="contacto" class="contacto">
+            <div class="contenidoContacto">
+                <h2>Contacto</h2>
+                <p class="p">¿Quieres contactarme?</p>
+                <p class="pDos">Completa el siguiente formulario y me pondré en contacto contigo lo antes posible</p>
+                <div class="fila">
+                    <!-- FORMULARIO -->
+                    <div class="col">
+                        <input type="text" placeholder="Ingresa tu nombre">
+                        <input type="text" placeholder="Ingresa un número de contacto">
+                        <input type="text" placeholder="Ingresa tu correco electrónico ">
+                        <input type="text" placeholder="Asunto">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa un mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje <img src="assets/enviar.png" alt="" width="15%">
+                            <span class="overlay"></span>
+                        </button>
+                    </div>
+                    <div class="col">
+                        <img src="assets/comunicar.png" alt="" width="100%" class="contactar">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <a href="#inicio"><img src="assets/argusStudio.png" width="10%" alt="" class="logoPie"></a>
+        <div class="redes">
+            <a href="https://github.com/AndresB02?tab=repositories" target="_blank"><i><img src="assets/git.png" alt="" class="git" width="80%"></i></a>
+            <a href="mailto:a.buitrago02@gmail.com"><i><img src="assets/email.png" alt="" class="correo" width="80%"></i></a>
+            <a href="https://www.linkedin.com/in/abuitrago02/" target="_blank"><i><img src="assets/linkedin.png" alt="" class="linkedin" width="70%"></i></a>
+            </div>
+        </div>
+        <p class="copyright">&copy Copyright Portafolio<br>Designed by Andres Buitrago <br>2023</p>
+    </footer>
+    <script src="code.js"></script>
+
+</body>
+</html>
